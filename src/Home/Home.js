@@ -1,7 +1,8 @@
+import { Autocomplete } from "../Components";
 export function Home() {
   return (
     <main>
-      <h1>Hello world!</h1>
+      <Autocomplete />
     </main>
   );
 }
